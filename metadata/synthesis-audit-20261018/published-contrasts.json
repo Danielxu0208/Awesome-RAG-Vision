@@ -1,0 +1,110 @@
+[
+  {
+    "id": "C1",
+    "key": "arxiv250524073",
+    "locator": "Section3.3, Table3",
+    "setup": "InfoSeek;5000 cases;50K-article sampled corpus;frozen EVA-CLIP score fusion;Recall@5 in percent",
+    "conditions": [
+      {
+        "name": "Image query / image candidates",
+        "score": 77.84
+      },
+      {
+        "name": "Image query / image+text candidates",
+        "score": 81.58
+      },
+      {
+        "name": "Caption+image query / caption+image candidates",
+        "score": 74.1
+      }
+    ],
+    "inference": "Representation additions have interface-specific effects.",
+    "limit": "Published retrieval score, not downstream answer accuracy.",
+    "source_url": "https://arxiv.org/html/2505.24073v1",
+    "source_sha256": "bc900299fc145b605179fa64ddfaae33d6c232d79088e015722c213bd54bc592"
+  },
+  {
+    "id": "C2",
+    "key": "jeong2025videorag",
+    "source_url": "https://aclanthology.org/2025.findings-acl.1096.pdf",
+    "source_sha256": "4cc33e154cea08ab0a941a3244976aa4675ec1dc7977d3f26c04a87eca9bd234",
+    "locator": "Section3.1; Table1, visual-only Qwen2.5-VL(3B), WikiHowQA columns;PDF pp.5-6",
+    "setup": "WikiHowQA with HowTo100M corpus;fixed Qwen2.5-VL3B reader;retrieved versus pre-associated oracle video;visual-only configurations",
+    "conditions": [
+      {
+        "name": "Retrieved video / ROUGE-L",
+        "score": 23.24
+      },
+      {
+        "name": "Associated oracle video / ROUGE-L",
+        "score": 21.53
+      },
+      {
+        "name": "Retrieved video / G-Eval",
+        "score": 1.899
+      },
+      {
+        "name": "Associated oracle video / G-Eval",
+        "score": 1.912
+      }
+    ],
+    "inference": "An annotation-associated oracle video need not maximize a particular output metric.",
+    "limit": "The associated video is not an exhaustive sufficient-support annotation;selected content and subsequent frames change. Do not infer an internal mechanism."
+  },
+  {
+    "id": "C3",
+    "key": "lee2026carve",
+    "locator": "Section6.1, Table3; Section6 metric definition; Appendix B.3-B.4",
+    "setup": "arXiv2606.13141v2;V-RAGBench300-test queries;within-video retrieval;top5;Qwen3-VL-8B main ablation;Recall@5 and pass rate in percent",
+    "conditions": [
+      {
+        "name": "Text frame+clip / Recall@5",
+        "score": 56.7
+      },
+      {
+        "name": "Text frame+clip / pass",
+        "score": 21.7
+      },
+      {
+        "name": "Visual frame / Recall@5",
+        "score": 47.7
+      },
+      {
+        "name": "Visual frame / pass",
+        "score": 32.3
+      }
+    ],
+    "inference": "Configuration ordering by recall can reverse under the answer metric.",
+    "limit": "The representation changes at both retrieval and reading; this does not isolate a causal effect of ranking.",
+    "source_url": "https://arxiv.org/html/2606.13141v2",
+    "source_sha256": "4e7e5352842e6f73a86b039954fd33ab80859297891266903f15ab24f40dede5"
+  },
+  {
+    "id": "C4",
+    "key": "sun2024surf",
+    "locator": "Section3.4, Table3; PDF p.6",
+    "setup": "MS-COCO captioning in the irrelevant image-caption-pair test;CIDEr; baseline and SURf each use their own original trained consumer;conditions from Table3 only",
+    "conditions": [
+      {
+        "name": "Vanilla-RAG original",
+        "score": 79.8
+      },
+      {
+        "name": "Vanilla-RAG w/1000k relevance rank",
+        "score": 73.6
+      },
+      {
+        "name": "SURf original",
+        "score": 101.3
+      },
+      {
+        "name": "SURf w/1000k relevance rank",
+        "score": 98.4
+      }
+    ],
+    "inference": "Within each trained consumer, the perturbation changes performance; selective-use training is a consumer intervention.",
+    "limit": "Different trained consumers; no claim that the cross-model level difference isolates robustness or ranking. Table4 uses a different baseline and is not mixed into this contrast.",
+    "source_url": "https://aclanthology.org/2024.emnlp-main.434.pdf",
+    "source_sha256": "f033d9a18e1bf30356b4f97d40e495c6ee30ea03f54c7d775b43cb3fa11102ce"
+  }
+]

@@ -12,7 +12,9 @@ A curated collection of **Retrieval-Augmented Generation (RAG) for Computer Visi
 
 Survey: [Retrieval Augmented Generation and Understanding in Vision: A Survey and New Outlook](https://arxiv.org/abs/2503.18016).
 
-Updated [figures for the ACL revision](FIGURES.md): information roles, retrieval representations, and 3D references.
+Updated [figures for the ACL revision](FIGURES.md): information roles, published diagnostic contrasts, retrieval representations, and 3D references.
+
+[Configuration-level evidence audit, 18 October 2026](metadata/synthesis-audit-20261018/README.md): 21 analytical studies, eight supporting full texts, and an 81-reference screening register. The register distinguishes bibliographic verification from source-linked analysis. Historical Visual-RAG v1 model scores are excluded because its annotation release was corrected.
 
 > 💡 Feel free to open a Pull Request to add your work on **RAG for Vision**!
 

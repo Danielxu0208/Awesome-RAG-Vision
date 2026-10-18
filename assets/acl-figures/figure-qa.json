@@ -28,5 +28,20 @@
     }
   ],
   "visual_inspection": "Colour previews and grayscale print previews reviewed at final physical size.",
-  "manuscript_pdf_exported": false
+  "manuscript_pdf_exported": false,
+  "evidence_figure_revision": {
+    "date": "2026-10-18",
+    "main_figures": [
+      "overview",
+      "audited_contrasts"
+    ],
+    "appendix_figures": [
+      "representations",
+      "structural_references"
+    ],
+    "chart_preview_inspected": true,
+    "published_source_table_visually_checked": "VideoRAG ACL Findings2025 Table1 PDFp6",
+    "data_source": "source_audit/synthesis-20261018/published-contrasts.json",
+    "known_corrected_annotation_scores_excluded": true
+  }
 }

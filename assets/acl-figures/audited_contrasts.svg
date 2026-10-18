@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="480" viewBox="0 0 1800 480">
+<rect width="1800" height="480" fill="white"/>
+<g font-family="Times New Roman, Times, serif" font-size="25" fill="#252A30">
+<text x="15" y="38" font-size="28" text-anchor="start" font-weight="bold" fill="#252A30">(a) Representation interface</text>
+<text x="15" y="76" font-size="23" text-anchor="start" font-weight="normal" fill="#68717A">mRAG / InfoSeek; Recall@5 (%)</text>
+<path d="M 45 365.0 H 565" stroke="#D8DDE1" stroke-width="1"/>
+<text x="35" y="372.0" font-size="21" text-anchor="end" font-weight="normal" fill="#68717A">0</text>
+<path d="M 45 245.0 H 565" stroke="#D8DDE1" stroke-width="1"/>
+<text x="35" y="252.0" font-size="21" text-anchor="end" font-weight="normal" fill="#68717A">50</text>
+<path d="M 45 125.0 H 565" stroke="#D8DDE1" stroke-width="1"/>
+<text x="35" y="132.0" font-size="21" text-anchor="end" font-weight="normal" fill="#68717A">100</text>
+<rect x="109.0" y="178.184" width="52" height="186.816" fill="#526F89"/>
+<text x="135" y="166.184" font-size="24" text-anchor="middle" font-weight="normal" fill="#252A30">77.84</text>
+<text x="135" y="400" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">Image /</text>
+<text x="135" y="429" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">image</text>
+<rect x="269.0" y="169.208" width="52" height="195.792" fill="#5C7B6E"/>
+<text x="295" y="157.208" font-size="24" text-anchor="middle" font-weight="normal" fill="#252A30">81.58</text>
+<text x="295" y="400" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">Image /</text>
+<text x="295" y="429" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">image+text</text>
+<rect x="429.0" y="187.16000000000003" width="52" height="177.83999999999997" fill="#7B7088"/>
+<text x="455" y="175.16000000000003" font-size="24" text-anchor="middle" font-weight="normal" fill="#252A30">74.10</text>
+<text x="455" y="400" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">Caption+image /</text>
+<text x="455" y="429" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">caption+image</text>
+<text x="615" y="38" font-size="28" text-anchor="start" font-weight="bold" fill="#252A30">(b) Oracle is metric-dependent</text>
+<text x="615" y="76" font-size="23" text-anchor="start" font-weight="normal" fill="#68717A">VideoRAG / WikiHowQA; ROUGE-L</text>
+<path d="M 645 365.0 H 1165" stroke="#D8DDE1" stroke-width="1"/>
+<text x="635" y="372.0" font-size="21" text-anchor="end" font-weight="normal" fill="#68717A">0</text>
+<path d="M 645 245.0 H 1165" stroke="#D8DDE1" stroke-width="1"/>
+<text x="635" y="252.0" font-size="21" text-anchor="end" font-weight="normal" fill="#68717A">50</text>
+<path d="M 645 125.0 H 1165" stroke="#D8DDE1" stroke-width="1"/>
+<text x="635" y="132.0" font-size="21" text-anchor="end" font-weight="normal" fill="#68717A">100</text>
+<rect x="754.0" y="309.224" width="72" height="55.77600000000001" fill="#526F89"/>
+<text x="790" y="297.224" font-size="24" text-anchor="middle" font-weight="normal" fill="#252A30">23.24</text>
+<text x="790" y="400" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">Retrieved</text>
+<text x="790" y="429" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">video</text>
+<rect x="979.0" y="313.328" width="72" height="51.672000000000025" fill="#5C7B6E"/>
+<text x="1015" y="301.328" font-size="24" text-anchor="middle" font-weight="normal" fill="#252A30">21.53</text>
+<text x="1015" y="400" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">Associated</text>
+<text x="1015" y="429" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">oracle video</text>
+<text x="900" y="469" font-size="22" text-anchor="middle" font-weight="normal" fill="#68717A">Same Qwen2.5-VL-3B reader</text>
+<text x="1215" y="38" font-size="28" text-anchor="start" font-weight="bold" fill="#252A30">(c) Ranking reversal</text>
+<text x="1215" y="76" font-size="23" text-anchor="start" font-weight="normal" fill="#68717A">CARVE / V-RAGBench; scores (%)</text>
+<path d="M 1245 365.0 H 1765" stroke="#D8DDE1" stroke-width="1"/>
+<text x="1235" y="372.0" font-size="21" text-anchor="end" font-weight="normal" fill="#68717A">0</text>
+<path d="M 1245 245.0 H 1765" stroke="#D8DDE1" stroke-width="1"/>
+<text x="1235" y="252.0" font-size="21" text-anchor="end" font-weight="normal" fill="#68717A">50</text>
+<path d="M 1245 125.0 H 1765" stroke="#D8DDE1" stroke-width="1"/>
+<text x="1235" y="132.0" font-size="21" text-anchor="end" font-weight="normal" fill="#68717A">100</text>
+<rect x="1314.0" y="228.92" width="52" height="136.08" fill="#526F89"/>
+<text x="1340" y="216.92" font-size="24" text-anchor="middle" font-weight="normal" fill="#252A30">56.7</text>
+<rect x="1384.0" y="312.92" width="52" height="52.079999999999984" fill="#7B7088"/>
+<text x="1410" y="300.92" font-size="24" text-anchor="middle" font-weight="normal" fill="#252A30">21.7</text>
+<rect x="1564.0" y="250.51999999999998" width="52" height="114.48000000000002" fill="#526F89"/>
+<text x="1590" y="238.51999999999998" font-size="24" text-anchor="middle" font-weight="normal" fill="#252A30">47.7</text>
+<rect x="1634.0" y="287.48" width="52" height="77.51999999999998" fill="#7B7088"/>
+<text x="1660" y="275.48" font-size="24" text-anchor="middle" font-weight="normal" fill="#252A30">32.3</text>
+<text x="1375" y="405" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">Text frame+clip</text>
+<text x="1625" y="405" font-size="23" text-anchor="middle" font-weight="normal" fill="#252A30">Visual frame</text>
+<rect x="1300" y="447" width="21" height="18" fill="#526F89"/>
+<text x="1330" y="464" font-size="23" text-anchor="start" font-weight="normal" fill="#252A30">Recall@5</text>
+<rect x="1525" y="447" width="21" height="18" fill="#7B7088"/>
+<text x="1555" y="464" font-size="23" text-anchor="start" font-weight="normal" fill="#252A30">Answer pass</text>
+</g>
+</svg>

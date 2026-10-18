@@ -1,6 +1,6 @@
 # Figures for the ACL survey revision
 
-Updated 18 October 2026. These figures combine editable vector schematics with image elements from the earlier survey. They illustrate the conceptual framework; they are not new experimental predictions or replicated comparative outputs. The original 81-paper [DBLP verification](VERIFIED_REFERENCES.md) remains unchanged.
+Updated 18 October 2026. These figures combine editable vector schematics with image elements from the earlier survey. The schematics illustrate the conceptual framework. The new contrast figure transcribes explicitly identified published results; it is not a new experiment or reproduction. The original 81-paper [DBLP verification](VERIFIED_REFERENCES.md) remains unchanged.
 
 Typography is now Times-compatible Nimbus Roman with embedded font subsets, regular-weight body labels and restrained bold headings. White panels, fine rules and muted slate-blue/plum/ochre/sage accents follow the reference papers' quiet visual hierarchy. Colours are adapted choices, not exact copies. The [style specification](assets/acl-figures/style-spec.json) records the palette and typography. Colour and grayscale previews were inspected.
 
@@ -9,6 +9,14 @@ Typography is now Times-compatible Nimbus Roman with embedded font subsets, regu
 ![Four information roles in vision retrieval augmentation](assets/acl-figures/overview.png)
 
 [Vector PDF](assets/acl-figures/overview.pdf). Concrete image, recognition, synthesis and memory examples distinguish the roles of selected information.
+
+## Published diagnostic contrasts (main-text Figure 2)
+
+![Representation effects, an oracle metric counterexample, and a retrieval/answer ranking reversal](assets/acl-figures/audited_contrasts.png)
+
+[Editable SVG](assets/acl-figures/audited_contrasts.svg) · [Manuscript TikZ](assets/acl-figures/audited_contrasts.tex) · [Conditions and source locators](metadata/synthesis-audit-20261018/published-contrasts.json).
+
+The panels use mRAG Table 3 (InfoSeek, frozen EVA-CLIP), published VideoRAG Table 1 (WikiHowQA, Qwen2.5-VL-3B, visual-only), and CARVE v2 Table 3 (within-video ablation). Metrics retain distinct meanings and protocols. No cross-paper ranking or significance claim is made. Visual-RAG's old model scores are excluded because its annotation release was corrected. The representation-path and 3D schematics are retained in the manuscript appendix.
 
 ## Representations, retrieval and reader input
 

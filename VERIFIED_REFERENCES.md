@@ -14,8 +14,9 @@ The regular dblp website/API returned a bot challenge; the documented public
 SPARQL endpoint returned structured records. No challenge was bypassed.
 
 This verifies bibliographic identity and metadata, not experimental validity or
-every scientific assertion. The review remains a targeted review, with incomplete
-full-text coding and no new experiments. The bibliography uses 21 preprints and
+every scientific assertion. The review remains targeted. The 18 October revision completes a bounded
+21-study analytical extraction plus eight supporting full texts; the remaining
+52 references are contextual, and no new experiments were run. The bibliography uses 21 preprints and
 60 proceedings/journal records (derive current counts from verified-records.json
 if this set changes). Google Scholar search URLs were not treated as verification.
 
@@ -123,3 +124,7 @@ if this set changes). Google Scholar search URLs were not treated as verificatio
 | `Arefeen2024ViTA` | ViTA: An Efficient Video-to-Text Algorithm using VLM for RAG-based Video Analysis System | 2024 / proceedings | [record](https://dblp.org/rec/conf/cvpr/ArefeenDUC22) |
 | `chang2022webqa` | WebQA: Multihop and Multimodal QA | 2022 / proceedings | [record](https://dblp.org/rec/conf/cvpr/ChangCNGSB22) |
 | `arxiv260500911` | When Good OCR Is Not Enough: Benchmarking OCR Robustness for Retrieval-Augmented Generation | 2026 / proceedings | [record](https://dblp.org/rec/conf/acl/SunWHZJCZ26) |
+
+## Configuration-level synthesis, 18 October 2026
+
+The [source-linked audit](metadata/synthesis-audit-20261018/README.md) records versions, hashes, configuration fields, passage locators, published contrasts and inference limits. Bibliographic identity remains distinct from experimental validity; no field-wide coverage or independent human double-coding is claimed.

@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-18",
+  "purpose": "Targeted review revision; discovery and verification are separate",
+  "seed": "81 DBLP-matched references retained on2026-10-15; no new citation identity added",
+  "queries": [
+    {
+      "service": "web search",
+      "query": "site.arxiv.org \"ColPali: Efficient Document Retrieval\"",
+      "use": "Locate primary text or a versioned primary copy"
+    },
+    {
+      "service": "web search",
+      "query": "site.arxiv.org \"Goldfish: Vision-Language Understanding\"",
+      "use": "Locate primary text or a versioned primary copy"
+    },
+    {
+      "service": "web search",
+      "query": "site.arxiv.org \"ImageRAG: Dynamic Image Retrieval\"",
+      "use": "Locate primary text or a versioned primary copy"
+    },
+    {
+      "service": "web search",
+      "query": "site.arxiv.org \"Phidias: A Generative Model\"",
+      "use": "Locate primary text or a versioned primary copy"
+    },
+    {
+      "service": "web search",
+      "query": "\"A Taxonomy of Knowledge Bases for Retrieval-Augmented Methods in Vision\" arxiv",
+      "use": "Locate primary text or a versioned primary copy"
+    },
+    {
+      "service": "web search",
+      "query": "\"Visual-RAG: Benchmarking Text-to-Image\" arxiv",
+      "use": "Locate primary text or a versioned primary copy"
+    },
+    {
+      "service": "web search",
+      "query": "\"FrameFusion\" \"arxiv\"",
+      "use": "Locate primary text or a versioned primary copy"
+    },
+    {
+      "service": "web search",
+      "query": "\"Multimodal Graph RAG for Long-range\"",
+      "use": "Locate primary text or a versioned primary copy"
+    },
+    {
+      "service": "web search",
+      "query": "site.arxiv.org \"MMed-RAG: Versatile\"",
+      "use": "Locate primary text or a versioned primary copy"
+    },
+    {
+      "service": "web search",
+      "query": "site.proceedings.mlr.press/v235/seo24a \"pdf\"",
+      "use": "Locate primary text or a versioned primary copy"
+    }
+  ],
+  "outcome": {
+    "retained_bibliographic_records": 81,
+    "analytical_studies": 21,
+    "supporting_full_texts": 8,
+    "contextual_references": 52,
+    "new_identity_records": 0
+  },
+  "failed_retrievals": "Some OpenReview PDF downloads returned403; explicit arXiv versions were inspected instead. Institutional knowledge-base-survey PDF timed out; positioning uses its official abstract. Incorrect or unavailable version probes were not used as evidence.",
+  "not_measured": [
+    "Database-search recall",
+    "Field-wide exclusion counts",
+    "Inter-annotator agreement",
+    "New benchmark performance"
+  ]
+}

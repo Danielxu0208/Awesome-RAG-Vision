@@ -1,0 +1,66 @@
+[
+  {
+    "citation_key": "arxiv250208826",
+    "purpose": "survey positioning",
+    "inspected_source": "https://aclanthology.org/2025.findings-acl.861.pdf",
+    "source_sha256": "47e5eb3b44dc87ef224498235b5448ec2f6455bdc2023dd8ea61712631f835f4",
+    "passage_locators": "Sections2-4; Figure2; PDF pp.2-9",
+    "retrieved": "2026-10-18"
+  },
+  {
+    "citation_key": "arxiv250408748",
+    "purpose": "survey positioning",
+    "inspected_source": "https://arxiv.org/html/2504.08748v1",
+    "source_sha256": "905c98a9ea1e0c178b19a6ce6c24391f3292ec3e1a5898f780f8e9bc9b9dcf59",
+    "passage_locators": "Sections2-5; component taxonomy and dataset/metric sections",
+    "retrieved": "2026-10-18"
+  },
+  {
+    "citation_key": "gao2026scaling",
+    "purpose": "survey positioning",
+    "inspected_source": "https://aclanthology.org/2026.acl-long.204.pdf",
+    "source_sha256": "93bd77c54e575e8b9b261225d2682c844dccbd43286eb9c20baaea6a97c7449e",
+    "passage_locators": "Sections2-5; domain/modality/granularity taxonomy; PDF pp.2-9",
+    "retrieved": "2026-10-18"
+  },
+  {
+    "citation_key": "faysse2024colpali",
+    "purpose": "retrieval-component boundary and ViDoRe contract",
+    "inspected_source": "https://arxiv.org/html/2407.01449v6",
+    "source_sha256": "bcc9fdbf29ee37ce36c6e129354c17248a994ae2fb6625f66f846a6bdbfd4361",
+    "passage_locators": "Sections3.1,4.1-4.2,5.1-5.3; Tables1-2",
+    "retrieved": "2026-10-18"
+  },
+  {
+    "citation_key": "wu2025visualrag",
+    "purpose": "benchmark contract and oracle/distractor case",
+    "inspected_source": "https://arxiv.org/html/2502.16636v1",
+    "source_sha256": "287ef273bc3d29fe9930d4faee4a88d007c3092d0bf0514c177a8bb312841a7f",
+    "passage_locators": "Sections4.1-4.2,5,6.1-6.3; Tables2-4,9",
+    "retrieved": "2026-10-18"
+  },
+  {
+    "citation_key": "mathew2021docvqa",
+    "purpose": "supplied-document dataset boundary",
+    "inspected_source": "https://openaccess.thecvf.com/content/WACV2021/papers/Mathew_DocVQA_A_Dataset_for_VQA_on_Document_Images_WACV_2021_paper.pdf",
+    "source_sha256": "df8187ac96d4405fea9907ae46a048ad8c227d63dcefbe69382de448f5ce5b7b",
+    "passage_locators": "Sections3-4; dataset construction and evaluation; PDF pp.3-7",
+    "retrieved": "2026-10-18"
+  },
+  {
+    "citation_key": "fu2024framefusion",
+    "purpose": "token-reduction boundary",
+    "inspected_source": "https://openaccess.thecvf.com/content/ICCV2025/papers/Fu_FrameFusion_Combining_Similarity_and_Importance_for_Video_Token_Reduction_on_ICCV_2025_paper.pdf",
+    "source_sha256": "efb1300f13c9d9d2f9130c29ee93b735eace01464327657e0cc764b4c00a1168",
+    "passage_locators": "Section4; similarity merging and importance pruning; PDF pp.3-5",
+    "retrieved": "2026-10-18"
+  },
+  {
+    "citation_key": "yi2024video",
+    "purpose": "alignment boundary",
+    "inspected_source": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yi_Video-Panda_Parameter-efficient_Alignment_for_Encoder-free_Video-Language_Models_CVPR_2025_paper.pdf",
+    "source_sha256": "3338194393e81009eba4a5ef28dbc5f53ff30cfa19eae27be0945c234cae03a4",
+    "passage_locators": "Section3; encoder-free alignment architecture; PDF pp.3-5",
+    "retrieved": "2026-10-18"
+  }
+]

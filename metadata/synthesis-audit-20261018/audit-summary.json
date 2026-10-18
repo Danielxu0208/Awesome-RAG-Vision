@@ -1,0 +1,23 @@
+{
+  "audit_date": "2026-10-18",
+  "bibliographic_identity_check_date": "2026-10-15",
+  "seed_references": 81,
+  "analytic_studies": 21,
+  "supporting_full_texts": 8,
+  "total_full_text_sources": 29,
+  "selection": "Purposive re-screening of the retained DBLP-matched bibliography; covers source, representation, consumer, and role contrasts. Not an independent exhaustive database search.",
+  "process": "AI-assisted extraction with passage reinspection and deterministic identity/link/count validation; no independent human double-coding, no agreement statistic, no model runs.",
+  "scope": "All 21 analytical records are populated for the stated fields. The 52 additional references are contextual and do not enter quantitative contrasts; eight supporting full texts establish survey, resource, and component boundaries.",
+  "additional_scope_source": {
+    "citation_key": "kim2026taxonomy",
+    "url": "https://ksp.etri.re.kr/ksp/article/read?id=72418",
+    "inspected": "Official institutional abstract and bibliographic record; full text download timed out. No detailed absence-of-coverage claim is made."
+  },
+  "unreported_fields": "Hardware, full hyperparameters, annotation exhaustiveness and omitted configurations are outside this extraction unless named explicitly.",
+  "release_note": {
+    "citation_key": "wu2025visualrag",
+    "inspected_source": "https://raw.githubusercontent.com/visual-rag/visual-rag/main/README.md",
+    "sha256": "7749d6169bef56279469a4fe52a3856c08d5ccd3df266bf4c1db640e9d5610e1",
+    "note": "Historical Visual-RAG v1 model scores are excluded from quantitative synthesis because corrected image labels/QA and removed placeholder questions yield a 374-question release. The main oracle contrast instead uses published ACL Findings VideoRAG Table1."
+  }
+}

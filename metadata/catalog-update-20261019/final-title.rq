@@ -1,0 +1,2 @@
+PREFIX dblp: <https://dblp.org/rdf/schema#>
+SELECT ?p ?property ?value WHERE { VALUES ?title { "Diffusion Based Augmentation for Captioning and Retrieval in Cultural Heritage." "Retrieval-Augmented VQA for Scientific Figures." "Interaction-based Retrieval-Augmented Diffusion for Protein 3D Generation." "Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels." } ?p dblp:title ?title . ?p ?property ?value }

@@ -1,0 +1,42 @@
+name: Add or correct a paper
+description: Propose a verified paper, a publication update, or a metadata correction.
+title: "[Paper] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Full paper title
+    validations:
+      required: true
+  - type: input
+    id: primary
+    attributes:
+      label: Primary publication or arXiv URL
+    validations:
+      required: true
+  - type: input
+    id: identity
+    attributes:
+      label: Direct DBLP or Google Scholar paper record
+      description: Use an individual paper record, not a search URL or author profile.
+    validations:
+      required: true
+  - type: textarea
+    id: metadata
+    attributes:
+      label: Authors, venue, year and version history
+      description: State whether this is a preprint; link the formal proceedings if applicable. Identify any existing catalog entry to merge.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Category, role and retrieval setting
+      description: Explain what is retrieved, from which collection, and how it is used. Distinguish a method from a retrieval component or benchmark.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Optional code or data
+      description: Include a primary source establishing that the repository or dataset belongs to this paper.

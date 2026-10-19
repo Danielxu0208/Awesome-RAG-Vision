@@ -1,5 +1,7 @@
 # Bibliographic verification, 15 October 2026
 
+> Historical manuscript snapshot. The broader [19 October public catalog](metadata/catalog-update-20261019/README.md) is maintained separately. The previously unresolved Complementary Retrieval-Augmented Prompting article now has a [DBLP identity record](https://dblp.org/rec/journals/corr/abs-2609-37407) and is included in that catalog; the fixed 81-reference manuscript audit below has not been retroactively changed.
+
 All 81 references retained in the ACL manuscript have a retrieved record from
 dblp's official public knowledge graph. The raw JSON responses, queries, and
 ordered author signatures are saved in `metadata/dblp-audit-20261015/`. Each BibTeX entry carries

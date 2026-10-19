@@ -1,0 +1,2 @@
+PREFIX dblp: <https://dblp.org/rdf/schema#>
+SELECT ?p ?name ?ordinal WHERE { VALUES ?p { <https://dblp.org/rec/journals/corr/abs-2609-11646> <https://dblp.org/rec/journals/corr/abs-2609-37407> <https://dblp.org/rec/journals/tip/LiuSZLZDXLW26> <https://dblp.org/rec/journals/tmlr/DayaniBB26> <https://dblp.org/rec/journals/tmlr/MonaciRDCBDCW25> } ?p dblp:hasSignature ?sig . ?sig dblp:signatureDblpName ?name; dblp:signatureOrdinal ?ordinal }

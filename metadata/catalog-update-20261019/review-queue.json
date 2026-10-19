@@ -1,0 +1,131 @@
+[
+  {
+    "legacy_row_index": 1,
+    "section": "Survey and Benchmark",
+    "cells": [
+      "2024",
+      "Hu *et al.*",
+      "LLMs / NLP",
+      "RA-LMs' components, evaluation, and limitations",
+      "[link](https://github.com/2471023025/RALM_Survey)"
+    ],
+    "urls": [
+      "https://github.com/2471023025/RALM_Survey"
+    ],
+    "status": "Needs exact DBLP/Scholar identity; author-only survey shorthand is insufficient. Not counted in the verified catalog."
+  },
+  {
+    "legacy_row_index": 2,
+    "section": "Survey and Benchmark",
+    "cells": [
+      "2024",
+      "Zhao *et al.*",
+      "RAG in AIGC",
+      "RAG applications across modalities",
+      "[link](https://github.com/PKU-DAIR/RAG-Survey)"
+    ],
+    "urls": [
+      "https://github.com/PKU-DAIR/RAG-Survey"
+    ],
+    "status": "Needs exact DBLP/Scholar identity; author-only survey shorthand is insufficient. Not counted in the verified catalog."
+  },
+  {
+    "legacy_row_index": 3,
+    "section": "Survey and Benchmark",
+    "cells": [
+      "2024",
+      "Yu *et al.*",
+      "LLMs / NLP",
+      "Unified evaluation process of RAG",
+      "[link](https://github.com/YHPeter/Awesome-RAG-Evaluation)"
+    ],
+    "urls": [
+      "https://github.com/YHPeter/Awesome-RAG-Evaluation"
+    ],
+    "status": "Needs exact DBLP/Scholar identity; author-only survey shorthand is insufficient. Not counted in the verified catalog."
+  },
+  {
+    "legacy_row_index": 4,
+    "section": "Survey and Benchmark",
+    "cells": [
+      "2024",
+      "Zhou *et al.*",
+      "Trustworthiness AI",
+      "Six dimensions and benchmarks about Trustworthy RAG",
+      "[link](https://github.com/smallporridge/TrustworthyRAG)"
+    ],
+    "urls": [
+      "https://github.com/smallporridge/TrustworthyRAG"
+    ],
+    "status": "Needs exact DBLP/Scholar identity; author-only survey shorthand is insufficient. Not counted in the verified catalog."
+  },
+  {
+    "legacy_row_index": 5,
+    "section": "Survey and Benchmark",
+    "cells": [
+      "2025",
+      "Singh *et al.*",
+      "AI Agent",
+      "Principles and evaluation",
+      "[link](https://github.com/asinghcsu/AgenticRAG-Survey)"
+    ],
+    "urls": [
+      "https://github.com/asinghcsu/AgenticRAG-Survey"
+    ],
+    "status": "Needs exact DBLP/Scholar identity; author-only survey shorthand is insufficient. Not counted in the verified catalog."
+  },
+  {
+    "legacy_row_index": 6,
+    "section": "Survey and Benchmark",
+    "cells": [
+      "2025",
+      "Ni *et al.*",
+      "Trustworthiness AI",
+      "Road-map and discussion",
+      "[link](https://github.com/Arstanley/Awesome-Trustworthy-Retrieval-Augmented-Generation)"
+    ],
+    "urls": [
+      "https://github.com/Arstanley/Awesome-Trustworthy-Retrieval-Augmented-Generation"
+    ],
+    "status": "Needs exact DBLP/Scholar identity; author-only survey shorthand is insufficient. Not counted in the verified catalog."
+  },
+  {
+    "legacy_row_index": 154,
+    "section": "Survey and Benchmark",
+    "cells": [
+      "2024",
+      "Zhao *et al.*",
+      "LLMs / NLP",
+      "Challenges in data-augmented LLMs",
+      "-"
+    ],
+    "urls": [],
+    "status": "Needs exact DBLP/Scholar identity; author-only survey shorthand is insufficient. Not counted in the verified catalog."
+  },
+  {
+    "legacy_row_index": 155,
+    "section": "Survey and Benchmark",
+    "cells": [
+      "2024",
+      "Gupta *et al.*",
+      "LLMs / NLP",
+      "Advancements and downstream tasks of RAG",
+      "-"
+    ],
+    "urls": [],
+    "status": "Needs exact DBLP/Scholar identity; author-only survey shorthand is insufficient. Not counted in the verified catalog."
+  },
+  {
+    "legacy_row_index": 156,
+    "section": "Survey and Benchmark",
+    "cells": [
+      "2024",
+      "Procko *et al.*",
+      "Graph Learning",
+      "Knowledge graphs with LLM RAG",
+      "-"
+    ],
+    "urls": [],
+    "status": "Needs exact DBLP/Scholar identity; author-only survey shorthand is insufficient. Not counted in the verified catalog."
+  }
+]

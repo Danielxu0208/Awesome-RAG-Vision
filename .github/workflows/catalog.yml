@@ -1,0 +1,23 @@
+name: Validate paper catalog
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'README.md'
+      - 'metadata/**'
+      - '.github/workflows/catalog.yml'
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/render_catalog.py --check

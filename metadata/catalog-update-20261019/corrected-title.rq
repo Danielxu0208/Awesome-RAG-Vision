@@ -1,0 +1,2 @@
+PREFIX dblp: <https://dblp.org/rdf/schema#>
+SELECT ?p ?property ?value WHERE { VALUES ?title { "Retrieval-Augmented Visual Question Answering via Built-in Autoregressive Search Engines." "Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation." } ?p dblp:title ?title . ?p ?property ?value }

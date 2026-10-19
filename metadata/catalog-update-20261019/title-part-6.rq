@@ -1,0 +1,2 @@
+PREFIX dblp: <https://dblp.org/rdf/schema#>
+SELECT ?p ?property ?value WHERE { VALUES ?title { "Your Retriever Already Knows: Distribution-Shape QPP for RAG Retrieval Sufficiency." "mKG-RAG: Multimodal Knowledge Graph-Enhanced RAG for Visual Question Answering." "mR2AG: Multimodal Retrieval-Reflection-Augmented Generation for Knowledge-Based VQA." "mRAG: Elucidating the Design Space of Multi-modal Retrieval-Augmented Generation." } ?p dblp:title ?title . ?p ?property ?value }

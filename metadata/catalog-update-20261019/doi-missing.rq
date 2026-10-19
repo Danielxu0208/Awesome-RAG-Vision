@@ -1,0 +1,2 @@
+PREFIX dblp: <https://dblp.org/rdf/schema#>
+SELECT ?p ?property ?value WHERE { VALUES ?doi { <https://doi.org/10.1145/3664647.3688990> <https://doi.org/10.1145/3664647.3681296> <https://doi.org/10.18653/V1/2025.NAACL-LONG.449> } ?p dblp:doi ?doi . ?p ?property ?value }
